@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-*{
+* {
   padding: 0;
 }
 
@@ -23,6 +23,7 @@ body {
 }
 #DarkLight {
   cursor: pointer;
+  color: #cdbc32;
 }
 
 a {
@@ -35,7 +36,6 @@ a {
 .section-padding {
   padding-top: 120px;
 }
-
 
 .scroll-up {
   width: 50px !important;
@@ -122,9 +122,9 @@ a {
 }
 
 .modal-content {
-  background-color:var(--second-color);
+  background-color: var(--second-color);
 }
-.Inmodal{
+.Inmodal {
   background-color: var(--second-color) !important;
 }
 .closeBtn {
@@ -229,7 +229,7 @@ a {
   text-decoration: none;
 }
 .card .proImg {
- background-color: var(--first-color);
+  background-color: var(--first-color);
   padding: 15px;
 }
 .card-header {
