@@ -32,10 +32,10 @@ var swiper = new Swiper(".mySwiper", {
   breakpoints: {
     0: {
       slidesPerView: 1,
-      //   spaceBetween: 20,
+        // spaceBetween: 20,
     },
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       //   spaceBetween: 20,
     },
     1024: {
@@ -54,15 +54,15 @@ if (localStorage.getItem("Theme")==null) {
 };
 
 if (localData=="light") {
-  // DarkLight.classList = "ri-moon-clear-fill";
-  DarkLight.style.color="#cdbc32";
-  ab.title="Turn off the light";
+  DarkLight.classList = "ri-moon-clear-fill";
+  DarkLight.style.color="#485785";
+  // ab.title="Turn off the light";
   document.body.classList.remove("darkTheme");
   homeImg.src = "./assests/img/home 2.png";
 } else if (localData == "dark") {
-  // DarkLight.classList = "ri-sun-fill";
-  DarkLight.style.color="#485785";
-  ab.title="Turn on the light";
+  DarkLight.classList = "ri-sun-fill";
+  DarkLight.style.color="#cdbc32";
+  // ab.title="Turn on the light";
   document.body.classList.add("darkTheme");
   homeImg.src = "./assests/img/home 3.png";
 }
@@ -70,15 +70,15 @@ if (localData=="light") {
 DarkLight.addEventListener("click", () => {
   document.body.classList.toggle("darkTheme");
   if (document.body.classList.contains("darkTheme")) {
-    // DarkLight.classList = "ri-sun-fill";
-    DarkLight.style.color="#485785";
-    ab.title="Turn on the light";
+    DarkLight.classList = "ri-sun-fill";
+    DarkLight.style.color="#cdbc32";
+    // ab.title="Turn on the light";
     homeImg.src = "./assests/img/home 3.png";
     localStorage.setItem("Theme", "dark");
   } else {
-    // DarkLight.classList = "ri-moon-clear-fill";
-    DarkLight.style.color="#cdbc32";
-    ab.title="Turn off the light";
+    DarkLight.classList = "ri-moon-clear-fill";
+    DarkLight.style.color="#485785";
+    // ab.title="Turn off the light";
     homeImg.src = "./assests/img/home 2.png";
     localStorage.setItem("Theme", "light");
   }

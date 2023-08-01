@@ -59,6 +59,9 @@ a {
   transition: all 0.2s ease-out;
   background-color: var(--first-color) !important;
 }
+.offcanvas{
+  background-color: var(--first-color) !important;
+}
 .navbar .navbar-brand h2 {
   font-style: italic;
 }
