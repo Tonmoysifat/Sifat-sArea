@@ -72,6 +72,9 @@ a {
 .navbar-toggler {
   order: 0;
 }
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 .navbar .navbar-nav .nav-link {
   font-size: 14px;
   text-transform: uppercase;
