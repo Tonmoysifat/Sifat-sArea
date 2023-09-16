@@ -293,9 +293,9 @@ a {
 .hide {
   background-color: var(--first-color);
   position: relative;
-  bottom: 90px;
+  bottom: 70px;
   color: #d9e3f1;
-  height: 55px;
+  height: 80px;
 }
 /* Contact-end */
 /* Footer-start */
