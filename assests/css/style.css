@@ -80,6 +80,18 @@ a {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.resume{
+  background-color: #71a670;
+  margin-right: 16px;
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+}
+.resume:hover{
+  color: white;
+}
+
 .navbar .navbar-nav .nav-link.active {
   color: var(--bs-info);
 }
@@ -353,6 +365,7 @@ a {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 16px;
     padding-left: 16px;
+    display: inline;
   }
   .Nline {
     border: 1px solid;
@@ -413,14 +426,4 @@ a {
     justify-content: space-between;
   }
   /* footer-end */
-}
-
-
-
-.convert-to-white {
-  filter: grayscale(100%) brightness(200%);
-}
-
-.fa-x-twitter:before {
-  content: "x";
 }
