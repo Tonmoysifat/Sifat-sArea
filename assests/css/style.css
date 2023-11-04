@@ -90,6 +90,7 @@ a {
 }
 .resume:hover{
   color: white;
+  background-color:#446de7da;
 }
 
 .navbar .navbar-nav .nav-link.active {
