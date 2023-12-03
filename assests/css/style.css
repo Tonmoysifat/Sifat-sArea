@@ -264,11 +264,37 @@ a {
   border-left: 5px solid white;
   border-bottom: 5px solid white;
   padding-left: 15px;
+  padding-bottom: 15px;
 }
-/* 
-.card .btn {
-  background-color: #c82fdf;
+.card-text p{
+  display: inline;
+}
+/* .ari{
+  font-size: 16px;
+  border: 2px solid #07eaaf;
+  border-radius: 50%;
+  padding: 7px;
+  margin-left: 3px;
+ 
 } */
+.ar{
+  color: #b0fa16;;
+}
+.fa-angle-down:before {
+  content: "\f107";
+  /* margin-top: 21px; */
+  /* padding-top: 5px; */
+  position: relative;
+  top: 1px;
+  font-size: 13px;
+}
+.fa-arrow-right{
+  color: #07eaaf;
+  transition: all 0.2s ease-in-out !important;
+}
+.ari:hover .fa-arrow-right {
+  transform: translate(5px);
+}
 /* Project End */
 
 /* Review-start */

@@ -70,4 +70,6 @@ DarkLight.addEventListener("click", () => {
     localStorage.setItem("Theme", "light");
   }
 });
+
+
 AOS.init();
