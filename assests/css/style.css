@@ -59,7 +59,7 @@ a {
   transition: all 0.2s ease-out;
   background-color: var(--first-color) !important;
 }
-.offcanvas{
+.offcanvas {
   background-color: var(--first-color) !important;
   width: 80% !important;
 }
@@ -72,7 +72,7 @@ a {
 .navbar-toggler {
   order: 0;
 }
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   box-shadow: none;
 }
 .navbar .navbar-nav .nav-link {
@@ -81,16 +81,16 @@ a {
   font-weight: 600;
 }
 
-.resume{
+.resume {
   background-color: #446ee7;
   margin-right: 16px;
   margin-top: 15px;
   color: white;
   text-align: center;
 }
-.resume:hover{
+.resume:hover {
   color: white;
-  background-color:#446de7da;
+  background-color: #446de7da;
 }
 
 .navbar .navbar-nav .nav-link.active {
@@ -189,7 +189,63 @@ a {
 .accordion-header .accordion-button:hover .shake {
   animation: shaking 0.5s;
 }
+@keyframes bounceTop {
+  0% {
+    transform: translate(-8px, -8px);
+    -webkit-transform: translate(-8px, -8px);
+    -moz-transform: translate(-8px, -8px);
+    -ms-transform: translate(-8px, -8px);
+    -o-transform: translate(-8px, -8px);
+}
+  100% {
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);
+    -moz-transform: translate(10px, 10px);
+    -ms-transform: translate(10px, 10px);
+    -o-transform: translate(10px, 10px);
+}
+}
 
+.icon-1 {
+  width: 80px;
+  background: #111010;
+  position: absolute;
+  top: 32%;
+  left: 9%;
+  padding: 20px;
+  border-radius: 25px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-2 {
+  width: 80px;
+  background: #111010;
+  position: absolute;
+  top: 78%;
+  left: 9%;
+  padding: 20px;
+  border-radius: 25px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-item{
+  animation: bounceTop 2s ease-in-out infinite alternate;
+}
+
+
+
+.icon-1 img{
+  width: 60px;
+}
+.icon-2 i{
+  font-size: 60px;
+}
 @keyframes shaking {
   0% {
     transform: translateX(0);
@@ -266,7 +322,7 @@ a {
   padding-left: 15px;
   padding-bottom: 15px;
 }
-.card-text p{
+.card-text p {
   display: inline;
 }
 /* .ari{
@@ -277,8 +333,8 @@ a {
   margin-left: 3px;
  
 } */
-.ar{
-  color: #b0fa16;;
+.ar {
+  color: #b0fa16;
 }
 .fa-angle-down:before {
   content: "\f107";
@@ -288,7 +344,7 @@ a {
   top: 1px;
   font-size: 13px;
 }
-.fa-arrow-right{
+.fa-arrow-right {
   color: #07eaaf;
   transition: all 0.2s ease-in-out !important;
 }
